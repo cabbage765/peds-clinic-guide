@@ -18,7 +18,7 @@ const CATEGORIES = [
     { title: "發燒的照顧", desc: "幾度要退燒、退燒藥怎麼用", keys: "發燒 退燒 體溫" },
     { title: "熱性痙攣", desc: "發燒抽筋時家長該怎麼做", keys: "抽筋 痙攣 熱痙攣" },
     { title: "泌尿道感染", desc: "嬰幼兒不明原因發燒要想到", keys: "尿 泌尿道 UTI" },
-    { title: "腸病毒", desc: "手足口病、疱疹性咽峽炎與重症前兆", keys: "腸病毒 手足口 口腔潰瘍" },
+    { title: "腸病毒", desc: "手足口病、疱疹性咽峽炎與重症前兆", url: "enterovirus.html", doc: "enterovirus.html#doc", docTitle: "腸病毒：型別與表現、重症分期與處置、EV-A71 疫苗", keys: "腸病毒 手足口 口腔潰瘍 疱疹性咽峽炎 嘴巴破 肌躍 抽搐 EV71 克沙奇" },
   ]},
   { name: "腸胃", icon: "🍼", color: "#e6f4ea", topics: [
     { title: "急性腸胃炎與脫水", desc: "上吐下瀉怎麼補充水分", keys: "腸胃炎 嘔吐 腹瀉 脫水 諾羅 輪狀" },

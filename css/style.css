@@ -269,3 +269,7 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .salt-card span { font-size: 1.4rem; line-height: 1.4; }
 .salt-card p { margin: 0; font-size: .95rem; }
 .tips li { margin: 10px 0; }
+
+/* 影片 */
+.video-box { margin: 14px 0; background: #fbfdfe; border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
+.video-box video { display: block; width: 100%; max-width: 720px; margin: 0 auto; border-radius: 8px; background: #000; }
