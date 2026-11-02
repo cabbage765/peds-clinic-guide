@@ -126,6 +126,7 @@ section.block > h2 .num { width: 30px; height: 30px; border-radius: 50%; backgro
 figure { margin: 16px 0; }
 figcaption { font-size: .9rem; color: var(--muted); margin-top: 6px; line-height: 1.6; }
 .diagram svg, .step svg, .hero-art svg { display: block; width: 100%; }
+.diagram.photo-fig { background: #fff; }
 .diagram { background: #fbfdfe; border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .reasons { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 12px; }
@@ -235,4 +236,12 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
   table.stack td[data-label]:not(:first-child)::before { content: attr(data-label) "："; color: var(--muted); font-size: .8rem; font-weight: 700; }
   table.stack tr.group { padding: 0; border: 0; }
   table.stack tr.group td { padding: 6px 8px; border-radius: 6px; margin-top: 8px; }
+}
+
+/* 手機上標示較多的解剖圖放大成可左右滑動 */
+@media (max-width: 600px) {
+  .diagram.photo-fig { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .diagram.photo-fig svg { min-width: 660px; }
+  .diagram.photo-fig::before { content: "↔ 圖片可左右滑動查看"; position: sticky; left: 0; display: block; font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
+  .diagram.photo-fig figcaption { position: sticky; left: 0; max-width: calc(100vw - 86px); }
 }
