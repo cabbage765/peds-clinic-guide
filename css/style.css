@@ -248,3 +248,14 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .ref-tag { display: inline-block; font-size: .72rem; padding: 0 7px; border-radius: 999px; background: var(--doc-soft); color: var(--doc); margin-left: 4px; white-space: nowrap; }
 #updates { background: #f6f9fd; }
 #updates li { margin: 6px 0; }
+
+/* 聲音播放 */
+.audio-box { display: flex; align-items: center; gap: 14px; background: var(--brand-soft); border-radius: 14px; padding: 14px 16px; margin: 12px 0; }
+.audio-box .audio-icon { font-size: 1.8rem; }
+.audio-box > div { flex: 1; min-width: 0; }
+.audio-box audio { width: 100%; }
+.diagram.narrow-fig svg { max-width: 460px; margin: 0 auto; }
+@media (max-width: 600px) {
+  .diagram.photo-fig.narrow-fig svg { min-width: 0; }
+  .diagram.photo-fig.narrow-fig::before { display: none; }
+}

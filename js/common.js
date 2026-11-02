@@ -11,7 +11,7 @@ const CATEGORIES = [
   { name: "呼吸道", icon: "🫁", color: "#e3eef9", topics: [
     { title: "一般感冒", desc: "病程、居家照顧與何時回診", keys: "感冒 咳嗽 流鼻水" },
     { title: "細支氣管炎", desc: "嬰兒喘、呼吸快，RSV 季節要注意", keys: "RSV 喘 細支氣管" },
-    { title: "哮吼", desc: "半夜狗吠聲咳嗽、吸氣有聲音", keys: "哮吼 犬吠 咳嗽" },
+    { title: "哮吼", desc: "半夜狗吠聲咳嗽、吸氣有聲音", url: "croup.html", doc: "croup.html#doc", docTitle: "哮吼：嚴重度分級、致病原、類固醇與 epinephrine 劑量", keys: "哮吼 犬吠 狗吠 咳嗽 喘鳴 沙啞 croup" },
     { title: "肺炎", desc: "發燒合併咳嗽、呼吸喘", keys: "肺炎 黴漿菌" },
   ]},
   { name: "發燒與感染", icon: "🌡️", color: "#fbeceb", topics: [
@@ -55,7 +55,7 @@ function footer() {
   el.className = "site-footer";
   el.innerHTML = `<div class="wrap">
     <p>本站內容為門診衛教輔助資料，不能取代醫師的診察與判斷。孩子有任何不適，請就醫評估。</p>
-    <p>照片來源皆為 Wikimedia Commons 的創用 CC 授權作品，作者與授權條款標示於各照片下方。</p>
+    <p>照片、解剖圖與聲音取自 Wikimedia Commons 的創用 CC 授權或公有領域作品，作者與授權條款標示於各素材下方。</p>
   </div>`;
 }
 
