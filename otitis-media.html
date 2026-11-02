@@ -13,7 +13,7 @@
   <meta property="og:locale" content="zh_TW">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body data-page="topic">
   <header id="site-header"></header>
@@ -48,6 +48,7 @@
         <a href="#prevent">預防方法</a>
         <div class="doc-part">
           <p>醫師參考</p>
+          <a href="#updates">近五年實證重點</a>
           <a href="#dx">診斷標準</a>
           <a href="#observe">抗生素或觀察</a>
           <a href="#pathogens">常見致病菌</a>
@@ -387,12 +388,22 @@
         <div class="doc-zone" id="doc">
           <div class="doc-banner">
             <h2>🩺 醫師參考：急性中耳炎（AOM）與中耳積液（OME）</h2>
-            <p>主要依據 AAP 2013 AOM 指引與 AAO-HNS 2016 OME 指引整理；實際處方請依病人狀況、在地抗藥性資料與藥品仿單調整。</p>
+            <p>以 AAP 2013 AOM 指引為架構，並依 2021–2025 年的系統性回顧、Cochrane 回顧、共識與致病菌監測更新；文中 [ ] 數字對應最下方參考資料。實際處方請依病人狀況、在地抗藥性資料與藥品仿單調整。</p>
           </div>
+
+          <section class="block" id="updates">
+            <h2>近五年實證重點（2026/11 整理）</h2>
+            <ul>
+              <li><b>指引版本：</b>截至 2026 年 11 月，AAP 尚未發布新版 AOM 指引，2013 年版仍是 AAP 現行版本 [1]；近年的回顧文章仍以它為主要架構 [2,3]。</li>
+              <li><b>抗生素效益有限、副作用明確：</b>2023 Cochrane 回顧顯示抗生素不能減少 24 小時內的耳痛，對 2–3 天後的耳痛只有小幅幫助，並增加嘔吐、腹瀉、皮疹；效益最明顯的是 <b>2 歲以下雙側 AOM</b> 與<b>有耳漏</b>的孩子 [4]。這支持「觀察等待／延遲處方」的策略 [3,6]。</li>
+              <li><b>致病菌：</b>PCV13 時代以後，<b>NTHi 已是中耳液培養最常見的細菌</b>，肺炎鏈球菌以非疫苗血清型（35B、23B、15B/C）為主；35B 也不在 PCV15、PCV20 內，新疫苗對 AOM 的影響可能有限 [7,8]。</li>
+              <li><b>療程：</b>2 歲以下維持 10 天 [1,9]。2 歲以上非嚴重者，2024 網絡統合分析顯示 7 天 amoxicillin 或 amoxicillin-clavulanate 不劣於 10 天 [5]；2023 回顧與 2025 義大利共識認為無危險因子者可用 5 天 [3,6]。</li>
+            </ul>
+          </section>
 
           <section class="block" id="dx">
             <h2>診斷標準（AOM）</h2>
-            <p>符合下列任一項即可診斷：</p>
+            <p>符合下列任一項即可診斷 [1]：</p>
             <ul>
               <li>鼓膜<b>中度至重度膨出</b>，或</li>
               <li>非外耳炎造成的<b>新發耳漏</b>，或</li>
@@ -413,24 +424,25 @@
                 </tbody>
               </table>
             </div>
-            <p class="small">選擇觀察時，需與家長共同決策，並確保 48–72 小時內症狀未改善或惡化時能回診開始抗生素（或預先開立備用處方）。觀察期間仍應給予止痛。</p>
+            <p class="small">依 AAP 2013 [1]。選擇觀察時，需與家長共同決策，並確保 48–72 小時內症狀未改善或惡化時能回診開始抗生素（或預先開立備用處方）。觀察期間仍應給予止痛。</p>
+            <p class="small muted">近年證據：觀察等待或延遲處方可讓抗生素使用減少約 65–88%，症狀時間、嚴重併發症與家長滿意度都沒有差異 [3]。2025 義大利共識的建議與 AAP 大致相同：6–24 個月單側輕度可觀察、雙側應立即治療；觀察的前提是 72 小時內能回診追蹤 [6]。</p>
           </section>
 
           <section class="block" id="pathogens">
             <h2>常見致病菌</h2>
             <div class="table-wrap">
               <table class="stack">
-                <thead><tr><th>病原</th><th>比例（約）</th><th>臨床重點</th></tr></thead>
+                <thead><tr><th>病原</th><th>中耳液培養比例</th><th>臨床重點</th></tr></thead>
                 <tbody>
-                  <tr><td class="drug"><i>Streptococcus pneumoniae</i></td><td>25–40%</td><td>症狀較嚴重、較不易自癒。對 penicillin 感受性下降者，靠<b>高劑量 amoxicillin</b> 達到中耳有效濃度。台灣肺炎鏈球菌對 macrolide 抗藥比例很高，不宜作為經驗用藥首選。</td></tr>
-                  <tr><td class="drug">Nontypeable <i>Haemophilus influenzae</i></td><td>30–50%</td><td>PCV 普及後比例上升，在部分研究已成為最常見菌種；相當比例會產生 <b>β-lactamase</b>。合併<b>化膿性結膜炎</b>（otitis-conjunctivitis syndrome）時要特別想到。</td></tr>
-                  <tr><td class="drug"><i>Moraxella catarrhalis</i></td><td>3–20%</td><td>幾乎全部產 β-lactamase，但症狀通常較輕、自癒率高。</td></tr>
+                  <tr><td class="drug">Nontypeable <i>Haemophilus influenzae</i></td><td>約 34%（最常見）</td><td>PCV13 時代的主要菌種 [7,8]。產 <b>β-lactamase</b> 比例：2015–2019 年 48.6% [7]，2021–2023 年 23% [8]。症狀較輕，約一半可自癒 [3]。合併<b>化膿性結膜炎</b>（otitis-conjunctivitis syndrome）時要特別想到。</td></tr>
+                  <tr><td class="drug"><i>Streptococcus pneumoniae</i></td><td>約 24%</td><td>比例下降，但症狀較嚴重、較不易自癒 [3]。以非疫苗血清型為主（35B、23B、15B/C）[7]；2021–2023 年中耳液菌株對 amoxicillin 不具感受性者約 30% [8]，仍以<b>高劑量 amoxicillin</b> 為主要對策。台灣肺炎鏈球菌對 macrolide 抗藥比例歷來很高，不宜作為經驗用藥。</td></tr>
+                  <tr><td class="drug"><i>Moraxella catarrhalis</i></td><td>約 15%</td><td>幾乎全部產 β-lactamase（2021–2023 年 100%）[8]，但症狀通常較輕，多數可自癒 [3]。</td></tr>
                   <tr><td class="drug"><i>Streptococcus pyogenes</i>（GAS）</td><td>&lt; 5%</td><td>較大兒童；較易鼓膜穿孔、合併乳突炎。</td></tr>
                   <tr><td class="drug">呼吸道病毒</td><td>常見共同感染</td><td>RSV、rhinovirus、adenovirus、influenza 等。常為 AOM 的前驅，與細菌共同感染時症狀較久、治療反應較差。</td></tr>
                 </tbody>
               </table>
             </div>
-            <p class="small muted">小於 2 個月的嬰兒另需考慮 Group B Streptococcus、腸道革蘭氏陰性桿菌與 <i>S. aureus</i>，且應評估是否有全身性感染。各菌比例依地區、疫苗涵蓋率與研究年代而不同。</p>
+            <p class="small muted">小於 2 個月的嬰兒另需考慮 Group B Streptococcus、腸道革蘭氏陰性桿菌與 <i>S. aureus</i>，且應評估是否有全身性感染。上表比例來自美國單一中心、6–36 個月兒童以鼓膜穿刺取得的中耳液 [7,8]，各地區比例依疫苗涵蓋率與年代而不同；台灣近年缺少同類的中耳液培養資料。</p>
           </section>
 
           <section class="block" id="abx">
@@ -440,13 +452,13 @@
                 <thead><tr><th>藥物</th><th>劑量</th><th>用法</th><th>使用時機／備註</th></tr></thead>
                 <tbody>
                   <tr class="group"><td colspan="4">第一線</td></tr>
-                  <tr><td class="drug">Amoxicillin</td><td class="dose">80–90 mg/kg/day</td><td>分 2 次（q12h）</td><td>大多數 AOM 的首選。每次最多 2 g。</td></tr>
-                  <tr><td class="drug">Amoxicillin-clavulanate</td><td class="dose">amoxicillin 90 mg/kg/day<br>＋ clavulanate 6.4 mg/kg/day</td><td>分 2 次（q12h）</td><td>以下情況直接選用：<br>・過去 30 天內用過 amoxicillin<br>・合併化膿性結膜炎<br>・曾對 amoxicillin 治療無效的反覆 AOM<br>需使用 <b>14:1</b> 劑型；若僅有 7:1 劑型，可用 7:1 劑型提供 45 mg/kg/day，再加上單方 amoxicillin 45 mg/kg/day，以避免 clavulanate 過量導致腹瀉。</td></tr>
+                  <tr><td class="drug">Amoxicillin</td><td class="dose">80–90 mg/kg/day</td><td>分 2 次（q12h）</td><td>大多數 AOM 的首選 [1,3,6]。劑量上限沒有實證依據，臨床常用每日 4 g（每次 2 g）[3]。</td></tr>
+                  <tr><td class="drug">Amoxicillin-clavulanate</td><td class="dose">amoxicillin 90 mg/kg/day<br>＋ clavulanate 6.4 mg/kg/day</td><td>分 2 次（q12h）</td><td>以下情況直接選用：<br>・過去 30 天內用過 amoxicillin<br>・合併化膿性結膜炎<br>・曾對 amoxicillin 治療無效的反覆 AOM<br>需使用 <b>14:1</b> 劑型；若僅有 7:1 劑型，可用 7:1 劑型提供 45 mg/kg/day，再加上單方 amoxicillin 45 mg/kg/day，以避免 clavulanate 過量導致腹瀉（clavulanate 宜低於 10 mg/kg/day）[6]。</td></tr>
                   <tr class="group"><td colspan="4">Penicillin 過敏（非嚴重、非 IgE 媒介型）</td></tr>
-                  <tr><td class="drug">Cefdinir</td><td class="dose">14 mg/kg/day</td><td>QD 或分 2 次</td><td>每日最多 600 mg。</td></tr>
+                  <tr><td class="drug">Cefdinir</td><td class="dose">14 mg/kg/day</td><td>QD 或分 2 次</td><td>每日最多 600 mg。AAP 列為選項 [1]，但近年回顧指出其中耳濃度與對肺炎鏈球菌的活性較差，宜優先考慮 cefuroxime 或 cefpodoxime [3,6]。</td></tr>
                   <tr><td class="drug">Cefuroxime axetil</td><td class="dose">30 mg/kg/day</td><td>分 2 次</td><td>每日最多 1 g。</td></tr>
                   <tr><td class="drug">Cefpodoxime</td><td class="dose">10 mg/kg/day</td><td>分 2 次</td><td>每日最多 400 mg。</td></tr>
-                  <tr><td class="drug">Ceftriaxone</td><td class="dose">50 mg/kg</td><td>IM 或 IV，QD</td><td>1 劑；無法口服或嘔吐時。治療失敗時連用 3 天。每劑最多 1 g。</td></tr>
+                  <tr><td class="drug">Ceftriaxone</td><td class="dose">50 mg/kg</td><td>IM 或 IV，QD</td><td>1 劑；無法口服或嘔吐時。治療失敗時最多 3 劑（間隔 24–48 小時）[3]。每劑最多 1 g。</td></tr>
                   <tr class="group"><td colspan="4">嚴重 IgE 媒介型過敏（過敏性休克、血管性水腫等）</td></tr>
                   <tr><td class="drug">Azithromycin</td><td class="dose">第 1 天 10 mg/kg<br>第 2–5 天 5 mg/kg</td><td>QD</td><td>亦可 10 mg/kg/day × 3 天。對 <i>S. pneumoniae</i> 與 NTHi 效果有限，台灣 macrolide 抗藥率高，僅於別無選擇時使用。</td></tr>
                   <tr><td class="drug">Clarithromycin</td><td class="dose">15 mg/kg/day</td><td>分 2 次</td><td>限制同上。</td></tr>
@@ -457,7 +469,7 @@
                 </tbody>
               </table>
             </div>
-            <p class="small muted">多數 cephalosporin（尤其第二、三代）與 penicillin 的交叉過敏率很低，非嚴重型 penicillin 過敏的孩子可使用。不建議使用 TMP-SMX 與 erythromycin-sulfisoxazole（肺炎鏈球菌抗藥性高）。</p>
+            <p class="small muted">多數 cephalosporin（尤其第二、三代）與 penicillin 的交叉過敏率很低，非嚴重型 penicillin 過敏的孩子可使用；側鏈與 penicillin 不同的 cephalosporin，在過敏風險分級或藥物激發試驗後使用更安全 [6]。不建議使用 TMP-SMX 與 erythromycin-sulfisoxazole（肺炎鏈球菌抗藥性高）。</p>
           </section>
 
           <section class="block" id="duration">
@@ -466,20 +478,21 @@
               <table class="stack">
                 <thead><tr><th>族群</th><th>口服抗生素療程</th></tr></thead>
                 <tbody>
-                  <tr><td class="drug">&lt; 2 歲，或任何年齡有嚴重症狀</td><td><b>10 天</b>（較短療程在此族群失敗率較高）</td></tr>
-                  <tr><td class="drug">2–5 歲，輕至中度</td><td><b>7 天</b></td></tr>
-                  <tr><td class="drug">≥ 6 歲，輕至中度</td><td><b>5–7 天</b></td></tr>
+                  <tr><td class="drug">&lt; 2 歲、嚴重症狀、鼓膜穿孔耳漏</td><td><b>10 天</b>。2 歲以下 5 天療程明顯較差（NNT 約 6）[3,9]，7 天也未證實不劣於 10 天 [5]。</td></tr>
+                  <tr><td class="drug">2–5 歲，輕至中度</td><td><b>7 天</b> [1]；2024 網絡統合分析：7 天不劣於 10 天 [5]。無危險因子者可考慮 <b>5 天</b> [3,6]。</td></tr>
+                  <tr><td class="drug">≥ 6 歲，輕至中度</td><td><b>5–7 天</b> [1,3,6]</td></tr>
+                  <tr><td class="drug">近 30 天內曾患 AOM、反覆性 AOM</td><td>不符合 5 天短療程的條件，依年齡給 7–10 天 [6]。</td></tr>
                   <tr><td class="drug">Ceftriaxone</td><td>1 劑（治療失敗時 3 劑）</td></tr>
                   <tr><td class="drug">Azithromycin</td><td>5 天（或 3 天方案）</td></tr>
                 </tbody>
               </table>
             </div>
-            <p class="small muted">治療後 48–72 小時症狀應改善。療程結束時常有殘留積液，屬正常現象，無須延長抗生素；無症狀者可於 2–3 個月後追蹤。</p>
+            <p class="small muted">「無危險因子」指：2 歲以上、無耳漏、非雙側、非嚴重症狀、非反覆發作 [6]。2024 統合分析也顯示 amoxicillin-clavulanate 與第三代 cephalosporin 的 5 天療程不如 10 天 [5]，縮短療程時以 amoxicillin 較有依據。治療後 48–72 小時症狀應改善。療程結束時常有殘留積液，屬正常現象，無須延長抗生素；無症狀者可於 2–3 個月後追蹤。</p>
           </section>
 
           <section class="block" id="failure">
             <h2>治療失敗（48–72 小時未改善）</h2>
-            <p>先重新檢查耳膜確認仍為 AOM，並排除其他發燒原因。</p>
+            <p>先重新檢查耳膜確認仍為 AOM，並排除其他發燒原因 [1,3]。</p>
             <div class="table-wrap">
               <table class="stack">
                 <thead><tr><th>原本的處置</th><th>下一步</th></tr></thead>
@@ -496,14 +509,14 @@
 
           <section class="block" id="ome-mx">
             <h2>中耳積液（OME）與反覆性 AOM</h2>
-            <h3>OME 的處置</h3>
+            <h3>OME 的處置 <span class="small muted">[10]</span></h3>
             <ul>
               <li><b>不建議：</b>抗生素、全身性或鼻噴類固醇、抗組織胺、去充血劑——對積液消退沒有長期效益。</li>
               <li><b>觀察等待：</b>無高風險因子者，自診斷起（或已知發生時間起）觀察 3 個月，每 3–6 個月追蹤直到積液消失。</li>
               <li><b>聽力檢查：</b>積液持續 ≥ 3 個月、懷疑聽力或語言問題，或屬於高風險兒童（既有聽損、語言發展遲緩、自閉症、唐氏症、顱顏異常、視力障礙等）。</li>
               <li><b>中耳通氣管：</b>雙側 OME ≥ 3 個月且有聽力損失時建議；慢性 OME 合併平衡、學習、行為問題或耳部不適時可考慮。4 歲以上可考慮合併腺樣體切除。</li>
             </ul>
-            <h3>反覆性 AOM</h3>
+            <h3>反覆性 AOM <span class="small muted">[1,6,11]</span></h3>
             <ul>
               <li>定義：6 個月內 ≥ 3 次，或 12 個月內 ≥ 4 次（其中 1 次在最近 6 個月內）。</li>
               <li>就診時仍有中耳積液者，可轉介耳鼻喉科評估中耳通氣管。</li>
@@ -515,12 +528,19 @@
           <section class="block" id="refs">
             <h2>參考資料</h2>
             <ol class="refs">
-              <li>Lieberthal AS, Carroll AE, Chonmaitree T, et al. The diagnosis and management of acute otitis media. <i>Pediatrics</i>. 2013;131(3):e964–e999.</li>
-              <li>Rosenfeld RM, Shin JJ, Schwartz SR, et al. Clinical practice guideline: otitis media with effusion (update). <i>Otolaryngol Head Neck Surg</i>. 2016;154(1 Suppl):S1–S41.</li>
-              <li>Hoberman A, Paradise JL, Rockette HE, et al. Shortened antimicrobial treatment for acute otitis media in young children. <i>N Engl J Med</i>. 2016;375:2446–2456.</li>
-              <li>Kaur R, Morris M, Pichichero ME. Epidemiology of acute otitis media in the postpneumococcal conjugate vaccine era. <i>Pediatrics</i>. 2017;140(3):e20170181.</li>
-              <li>Rosenfeld RM, Tunkel DE, Schwartz SR, et al. Clinical practice guideline: tympanostomy tubes in children (update). <i>Otolaryngol Head Neck Surg</i>. 2022;166(1 Suppl):S1–S55.</li>
+              <li>Lieberthal AS, Carroll AE, Chonmaitree T, et al. The diagnosis and management of acute otitis media. <i>Pediatrics</i>. 2013;131(3):e964–e999. <span class="ref-tag">AAP 指引（現行版）</span></li>
+              <li>Paul CR, Frohna JG. Acute otitis media. <i>Pediatr Rev</i>. 2025;46(3):139–147. doi:10.1542/pir.2023-006216 <span class="ref-tag">AAP 期刊回顧</span></li>
+              <li>El Feghaly RE, Nedved A, Katz SE, Frost HM. New insights into the treatment of acute otitis media. <i>Expert Rev Anti Infect Ther</i>. 2023;21(5):523–534. doi:10.1080/14787210.2023.2206565 <span class="ref-tag">回顧</span></li>
+              <li>Venekamp RP, Sanders SL, Glasziou PP, Rovers MM. Antibiotics for acute otitis media in children. <i>Cochrane Database Syst Rev</i>. 2023;11:CD000219. doi:10.1002/14651858.CD000219.pub5 <span class="ref-tag">Cochrane 回顧</span></li>
+              <li>Kim MS, Kim JH, Ryu S, et al. Comparative efficacy and optimal duration of first-line antibiotic regimens for acute otitis media in children and adolescents: a systematic review and network meta-analysis of 89 randomized clinical trials. <i>World J Pediatr</i>. 2024;20(3):219–229. doi:10.1007/s12519-023-00716-8 <span class="ref-tag">網絡統合分析</span></li>
+              <li>Castelli Gattinara G, Bergamini M, Simeone G, et al. Antibiotic treatment of acute and recurrent otitis media in children: an Italian intersociety consensus. <i>Ital J Pediatr</i>. 2025;51:50. doi:10.1186/s13052-025-01894-z <span class="ref-tag">跨學會共識</span></li>
+              <li>Kaur R, Fuji N, Pichichero ME. Dynamic changes in otopathogens colonizing the nasopharynx and causing acute otitis media in children after 13-valent (PCV13) pneumococcal conjugate vaccination during 2015–2019. <i>Eur J Clin Microbiol Infect Dis</i>. 2022;41(1):37–44. doi:10.1007/s10096-021-04324-0</li>
+              <li>Kaur R, Schulz S, Sherman A, et al. Anticipated effects of higher-valency pneumococcal conjugate vaccines on colonization and acute otitis media. <i>Pediatr Infect Dis J</i>. 2024;43(10):1004–1010. doi:10.1097/INF.0000000000004413</li>
+              <li>Hoberman A, Paradise JL, Rockette HE, et al. Shortened antimicrobial treatment for acute otitis media in young children. <i>N Engl J Med</i>. 2016;375:2446–2456. <span class="ref-tag">關鍵 RCT</span></li>
+              <li>Rosenfeld RM, Shin JJ, Schwartz SR, et al. Clinical practice guideline: otitis media with effusion (update). <i>Otolaryngol Head Neck Surg</i>. 2016;154(1 Suppl):S1–S41. <span class="ref-tag">AAO-HNS 指引（現行版）</span></li>
+              <li>Rosenfeld RM, Tunkel DE, Schwartz SR, et al. Clinical practice guideline: tympanostomy tubes in children (update). <i>Otolaryngol Head Neck Surg</i>. 2022;166(1 Suppl):S1–S55. <span class="ref-tag">AAO-HNS 指引</span></li>
             </ol>
+            <p class="small muted">文獻搜尋截至 2026 年 11 月。AAP 2013 AOM 指引與 AAO-HNS 2016 OME 指引目前仍是兩學會的現行版本，若日後改版，本頁將隨之更新。</p>
           </section>
         </div>
 

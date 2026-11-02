@@ -245,3 +245,6 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
   .diagram.photo-fig::before { content: "↔ 圖片可左右滑動查看"; position: sticky; left: 0; display: block; font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
   .diagram.photo-fig figcaption { position: sticky; left: 0; max-width: calc(100vw - 86px); }
 }
+.ref-tag { display: inline-block; font-size: .72rem; padding: 0 7px; border-radius: 999px; background: var(--doc-soft); color: var(--doc); margin-left: 4px; white-space: nowrap; }
+#updates { background: #f6f9fd; }
+#updates li { margin: 6px 0; }
