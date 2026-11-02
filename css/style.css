@@ -259,3 +259,13 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
   .diagram.photo-fig.narrow-fig svg { min-width: 0; }
   .diagram.photo-fig.narrow-fig::before { display: none; }
 }
+
+/* 過敏性鼻炎：使用順序與調鹽水卡片 */
+.order-box { background: var(--brand-soft); border-radius: 14px; padding: 14px 18px; margin-top: 12px; }
+.order-box ol { margin: 6px 0 4px; padding-left: 1.4em; }
+.salt-card { background: #eaf3fb; border-radius: 14px; padding: 14px 16px; }
+.salt-card > b { display: block; margin-bottom: 6px; color: #2f5f8f; }
+.salt-card > div { display: flex; gap: 10px; align-items: flex-start; margin: 8px 0; }
+.salt-card span { font-size: 1.4rem; line-height: 1.4; }
+.salt-card p { margin: 0; font-size: .95rem; }
+.tips li { margin: 10px 0; }
