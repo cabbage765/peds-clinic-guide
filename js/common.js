@@ -17,7 +17,7 @@ const CATEGORIES = [
   { name: "發燒與感染", icon: "🌡️", color: "#fbeceb", topics: [
     { title: "發燒的照顧", desc: "幾度要退燒、退燒藥怎麼用", keys: "發燒 退燒 體溫" },
     { title: "熱性痙攣", desc: "發燒抽筋時家長該怎麼做", keys: "抽筋 痙攣 熱痙攣" },
-    { title: "泌尿道感染", desc: "嬰幼兒不明原因發燒要想到", keys: "尿 泌尿道 UTI" },
+    { title: "泌尿道感染", desc: "嬰幼兒不明原因發燒要想到；膀胱輸尿管逆流", url: "uti.html", doc: "uti.html#doc", docTitle: "泌尿道感染：診斷、抗生素與療程、影像、VUR 分級與預防性抗生素", keys: "尿 泌尿道 UTI 腎盂腎炎 膀胱炎 逆流 VUR VCUG 驗尿" },
     { title: "腸病毒", desc: "手足口病、疱疹性咽峽炎與重症前兆", url: "enterovirus.html", doc: "enterovirus.html#doc", docTitle: "腸病毒：型別與表現、重症分期與處置、EV-A71 疫苗", keys: "腸病毒 手足口 口腔潰瘍 疱疹性咽峽炎 嘴巴破 肌躍 抽搐 EV71 克沙奇" },
   ]},
   { name: "腸胃", icon: "🍼", color: "#e6f4ea", topics: [
@@ -55,7 +55,7 @@ function footer() {
   el.className = "site-footer";
   el.innerHTML = `<div class="wrap">
     <p>本站內容為門診衛教輔助資料，不能取代醫師的診察與判斷。孩子有任何不適，請就醫評估。</p>
-    <p>照片、解剖圖與聲音取自 Wikimedia Commons 的創用 CC 授權或公有領域作品，作者與授權條款標示於各素材下方。</p>
+    <p>照片、解剖圖、聲音與影片取自 Wikimedia Commons 及開放取用期刊的創用 CC 授權或公有領域作品，作者與授權條款標示於各素材下方。</p>
   </div>`;
 }
 
