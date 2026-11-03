@@ -5,7 +5,7 @@ const CATEGORIES = [
   { name: "耳鼻喉", icon: "👂", color: "#fde8dc", topics: [
     { title: "中耳炎與中耳積液", desc: "耳朵痛、發燒、抓耳朵？成因、耳鏡照片與照顧重點", url: "otitis-media.html", doc: "otitis-media.html#doc", docTitle: "急性中耳炎：致病菌、抗生素選擇、劑量與療程", keys: "耳朵 耳痛 中耳炎 積水 積液 AOM OME 鼓膜" },
     { title: "鼻竇炎", desc: "感冒超過 10 天還在流膿鼻涕", keys: "鼻涕 鼻塞 鼻竇" },
-    { title: "喉嚨痛與鏈球菌咽喉炎", desc: "什麼時候需要快篩、要不要吃抗生素", keys: "喉嚨 扁桃腺 咽喉 鏈球菌" },
+    { title: "喉嚨痛與鏈球菌咽喉炎", desc: "病毒還是鏈球菌？猩紅熱紅疹照片、快篩與抗生素", url: "strep-throat.html", doc: "strep-throat.html#doc", docTitle: "鏈球菌咽喉炎：臨床評分、檢測、抗生素劑量與併發症", keys: "喉嚨 喉嚨痛 扁桃腺 咽喉 鏈球菌 猩紅熱 草莓舌 紅疹 快篩" },
     { title: "過敏性鼻炎", desc: "早上一直打噴嚏、揉鼻子；鼻噴劑與洗鼻教學", url: "allergic-rhinitis.html", doc: "allergic-rhinitis.html#doc", docTitle: "過敏性鼻炎：ARIA 分類、階梯治療、鼻噴劑與口服藥劑量", keys: "過敏 鼻炎 噴嚏 鼻塞 鼻水 塵蟎 洗鼻 鼻噴劑 類固醇 Avamys 舒喜滿" },
   ]},
   { name: "呼吸道", icon: "🫁", color: "#e3eef9", topics: [
