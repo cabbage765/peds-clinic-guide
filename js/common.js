@@ -10,7 +10,7 @@ const CATEGORIES = [
   ]},
   { name: "呼吸道", icon: "🫁", color: "#e3eef9", topics: [
     { title: "一般感冒", desc: "病程、居家照顧與何時回診", keys: "感冒 咳嗽 流鼻水" },
-    { title: "細支氣管炎", desc: "嬰兒喘、呼吸快，RSV 季節要注意", keys: "RSV 喘 細支氣管" },
+    { title: "細支氣管炎", desc: "嬰兒喘、呼吸快，和氣喘怎麼分", url: "bronchiolitis.html", doc: "bronchiolitis.html#doc", docTitle: "細支氣管炎：評估、處置、不建議治療、與氣喘鑑別、RSV 預防", keys: "RSV 喘 細支氣管 細支氣管炎 咻咻 喘鳴 氣喘 呼吸快 胸凹 單株抗體" },
     { title: "哮吼", desc: "半夜狗吠聲咳嗽、吸氣有聲音", url: "croup.html", doc: "croup.html#doc", docTitle: "哮吼：嚴重度分級、致病原、類固醇與 epinephrine 劑量", keys: "哮吼 犬吠 狗吠 咳嗽 喘鳴 沙啞 croup" },
     { title: "肺炎", desc: "發燒合併咳嗽、呼吸喘", keys: "肺炎 黴漿菌" },
   ]},
