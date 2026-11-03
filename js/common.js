@@ -4,7 +4,7 @@
 const CATEGORIES = [
   { name: "耳鼻喉", icon: "👂", color: "#fde8dc", topics: [
     { title: "中耳炎與中耳積液", desc: "耳朵痛、發燒、抓耳朵？成因、耳鏡照片與照顧重點", url: "otitis-media.html", doc: "otitis-media.html#doc", docTitle: "急性中耳炎：致病菌、抗生素選擇、劑量與療程", keys: "耳朵 耳痛 中耳炎 積水 積液 AOM OME 鼓膜" },
-    { title: "鼻竇炎", desc: "感冒超過 10 天還在流膿鼻涕", keys: "鼻涕 鼻塞 鼻竇" },
+    { title: "鼻竇炎", desc: "感冒超過 10 天還沒好？抗生素何時需要", url: "sinusitis.html", doc: "sinusitis.html#doc", docTitle: "鼻竇炎：診斷標準、抗生素劑量、治療失敗與併發症", keys: "鼻涕 鼻塞 鼻竇 鼻竇炎 膿鼻涕 黃鼻涕 頭痛" },
     { title: "喉嚨痛與鏈球菌咽喉炎", desc: "病毒還是鏈球菌？猩紅熱紅疹照片、快篩與抗生素", url: "strep-throat.html", doc: "strep-throat.html#doc", docTitle: "鏈球菌咽喉炎：臨床評分、檢測、抗生素劑量與併發症", keys: "喉嚨 喉嚨痛 扁桃腺 咽喉 鏈球菌 猩紅熱 草莓舌 紅疹 快篩" },
     { title: "過敏性鼻炎", desc: "早上一直打噴嚏、揉鼻子；鼻噴劑與洗鼻教學", url: "allergic-rhinitis.html", doc: "allergic-rhinitis.html#doc", docTitle: "過敏性鼻炎：ARIA 分類、階梯治療、鼻噴劑與口服藥劑量", keys: "過敏 鼻炎 噴嚏 鼻塞 鼻水 塵蟎 洗鼻 鼻噴劑 類固醇 Avamys 舒喜滿" },
   ]},
@@ -21,7 +21,7 @@ const CATEGORIES = [
     { title: "腸病毒", desc: "手足口病、疱疹性咽峽炎與重症前兆", url: "enterovirus.html", doc: "enterovirus.html#doc", docTitle: "腸病毒：型別與表現、重症分期與處置、EV-A71 疫苗", keys: "腸病毒 手足口 口腔潰瘍 疱疹性咽峽炎 嘴巴破 肌躍 抽搐 EV71 克沙奇" },
   ]},
   { name: "腸胃", icon: "🍼", color: "#e6f4ea", topics: [
-    { title: "急性腸胃炎與脫水", desc: "上吐下瀉怎麼補充水分", keys: "腸胃炎 嘔吐 腹瀉 脫水 諾羅 輪狀" },
+    { title: "急性腸胃炎與脫水", desc: "上吐下瀉怎麼補充水分、脫水警訊", url: "gastroenteritis.html", doc: "gastroenteritis.html#doc", docTitle: "急性腸胃炎：脫水評估、口服補液、ondansetron 與益生菌", keys: "腸胃炎 嘔吐 腹瀉 拉肚子 脫水 諾羅 輪狀 電解質 ORS" },
     { title: "便秘", desc: "排便困難、肛裂與飲食調整", keys: "便秘 大便" },
     { title: "嬰兒溢奶與胃食道逆流", desc: "正常溢奶與需要檢查的警訊", keys: "溢奶 吐奶 逆流" },
   ]},
