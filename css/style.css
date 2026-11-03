@@ -288,3 +288,15 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .photo-full { margin: 14px 0; }
 .photo-full img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); cursor: zoom-in; }
 .photo-full figcaption { margin-top: 6px; }
+
+/* 疫苗時程格狀表 */
+.vax-grid { font-size: .85rem; }
+.vax-grid th, .vax-grid td { text-align: center; padding: 7px 6px; border: 1px solid var(--line); }
+.vax-grid th:first-child, .vax-grid td:first-child { text-align: left; min-width: 110px; width: 140px; }
+.vax-grid td:first-child small { display: block; line-height: 1.35; }
+.vax-grid th { font-size: .78rem; padding: 6px 3px; }
+.vax-grid td:not(:first-child):not(:empty) { color: var(--brand-dark); font-weight: 700; }
+.vax-grid td.span { white-space: normal; font-size: .78rem; }
+.vax-grid td.note-cell { text-align: left; font-weight: 400 !important; color: var(--muted) !important; }
+.vax-grid small { color: var(--muted); font-weight: 400; }
+.vax-grid td.drug { white-space: normal; }

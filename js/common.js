@@ -33,7 +33,7 @@ const CATEGORIES = [
   { name: "新生兒與成長", icon: "👶", color: "#fff6d9", topics: [
     { title: "新生兒黃疸", desc: "皮膚黃要不要照光", keys: "黃疸 新生兒" },
     { title: "生長曲線怎麼看", desc: "身高體重百分位的意義", keys: "生長曲線 身高 體重" },
-    { title: "疫苗接種時程", desc: "公費與自費疫苗一覽", keys: "疫苗 預防針" },
+    { title: "疫苗接種時程", desc: "公費時程表、同種與不同疫苗的接種間隔", url: "vaccines.html", doc: "vaccines.html#doc", docTitle: "疫苗：最小接種年齡、最短間隔、不同疫苗間隔與補種", keys: "疫苗 預防針 接種 時程 間隔 五合一 六合一 MMR 水痘 日本腦炎 卡介苗 B肝 A肝 肺炎鏈球菌 輪狀 補種" },
   ]},
 ];
 
