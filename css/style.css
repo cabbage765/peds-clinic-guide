@@ -273,3 +273,13 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 /* 影片 */
 .video-box { margin: 14px 0; background: #fbfdfe; border: 1px solid var(--line); border-radius: 12px; padding: 10px; }
 .video-box video { display: block; width: 100%; max-width: 720px; margin: 0 auto; border-radius: 8px; background: #000; }
+
+/* cefixime／levofloxacin 角色表 */
+#cefixime-levo table { table-layout: fixed; }
+#cefixime-levo th:nth-child(1) { width: 15%; }
+#cefixime-levo th:nth-child(2) { width: 22%; }
+#cefixime-levo th:nth-child(3) { width: 25%; }
+#cefixime-levo th:nth-child(4) { width: 20%; }
+#cefixime-levo th:nth-child(5) { width: 18%; }
+#cefixime-levo td.dose, #cefixime-levo td.drug { white-space: normal; }
+@media (max-width: 600px) { #cefixime-levo table { table-layout: auto; } }
