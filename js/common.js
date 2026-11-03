@@ -94,7 +94,7 @@ function renderIndex() {
 }
 
 function lightbox() {
-  const imgs = document.querySelectorAll(".photo img");
+  const imgs = document.querySelectorAll(".photo img, .photo-full img");
   if (!imgs.length) return;
   const box = document.createElement("div");
   box.className = "lightbox";

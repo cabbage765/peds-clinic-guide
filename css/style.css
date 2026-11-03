@@ -283,3 +283,8 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 #cefixime-levo th:nth-child(5) { width: 18%; }
 #cefixime-levo td.dose, #cefixime-levo td.drug { white-space: normal; }
 @media (max-width: 600px) { #cefixime-levo table { table-layout: auto; } }
+
+/* 整張衛教圖 */
+.photo-full { margin: 14px 0; }
+.photo-full img { display: block; width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); cursor: zoom-in; }
+.photo-full figcaption { margin-top: 6px; }
