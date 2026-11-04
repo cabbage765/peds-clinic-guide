@@ -48,7 +48,7 @@ p { margin: .5em 0; }
 }
 .site-header .wrap { display: flex; align-items: center; gap: 16px; height: 56px; }
 .logo { display: flex; align-items: center; gap: 8px; font-weight: 700; color: var(--ink); text-decoration: none; font-size: 1.05rem; }
-.logo img { width: 30px; height: 30px; }
+.logo img { width: 38px; height: 38px; }
 .site-header nav { margin-left: auto; display: flex; gap: 4px; }
 .site-header nav a { text-decoration: none; color: var(--muted); padding: 6px 12px; border-radius: 999px; font-size: .95rem; }
 .site-header nav a:hover, .site-header nav a.active { background: var(--brand-soft); color: var(--brand-dark); }
