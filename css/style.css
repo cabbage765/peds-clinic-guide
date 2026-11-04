@@ -60,7 +60,8 @@ p { margin: .5em 0; }
 .hero { padding: 40px 0 24px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: center; }
 .hero h1 { font-size: 2.1rem; margin: 0 0 .3em; }
 .hero p { color: var(--muted); font-size: 1.05rem; }
-.hero-art { background: var(--brand-soft); border-radius: 24px; padding: 12px; }
+.hero-art { border-radius: 20px; overflow: hidden; box-shadow: var(--shadow); }
+.hero-art img { display: block; width: 100%; height: auto; border-radius: 20px; }
 .search { margin-top: 18px; position: relative; }
 .search input {
   width: 100%; padding: 13px 16px 13px 44px; font-size: 1rem; font-family: inherit;
