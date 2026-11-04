@@ -26,7 +26,7 @@ const CATEGORIES = [
     { title: "嬰兒溢奶與胃食道逆流", desc: "正常溢奶與需要檢查的警訊", keys: "溢奶 吐奶 逆流" },
   ]},
   { name: "皮膚", icon: "🧴", color: "#f3ecfa", topics: [
-    { title: "異位性皮膚炎", desc: "保濕、類固醇藥膏怎麼擦", keys: "濕疹 異位性 皮膚癢" },
+    { title: "異位性皮膚炎", desc: "保濕、洗澡、類固醇藥膏怎麼擦與擦多少", url: "atopic-dermatitis.html", doc: "atopic-dermatitis.html#doc", docTitle: "異位性皮膚炎：2023 指引重點、外用藥強度、全身治療與合併感染", keys: "濕疹 異位性 皮膚炎 皮膚癢 乾燥 保濕 類固醇 藥膏 指尖單位 漂白水" },
     { title: "尿布疹", desc: "紅屁股的預防與照顧", keys: "尿布疹 紅屁股" },
     { title: "蕁麻疹", desc: "突然冒出來的膨疹", keys: "蕁麻疹 過敏 癢" },
   ]},
