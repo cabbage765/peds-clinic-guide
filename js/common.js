@@ -42,7 +42,7 @@ function header(active) {
   if (!el) return;
   el.className = "site-header";
   el.innerHTML = `<div class="wrap">
-    <a class="logo" href="index.html"><img src="favicon.svg" alt=""><span>兒科門診衛教室</span></a>
+    <a class="logo" href="index.html"><img src="favicon.svg?v=2" alt=""><span>兒科門診衛教室</span></a>
     <nav>
       <a href="index.html" class="${active === "home" ? "active" : ""}">衛教目錄</a>
       <a href="index.html#doc-index" class="${active === "doc" ? "active" : ""}">醫師專區</a>
