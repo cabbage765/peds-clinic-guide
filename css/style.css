@@ -57,11 +57,15 @@ p { margin: .5em 0; }
 .site-footer p { margin: .3em 0; }
 
 /* 首頁 */
-.hero { padding: 40px 0 24px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 28px; align-items: center; }
+.hero-band { background: linear-gradient(180deg, #bee7b6 0%, #c6eac1 55%, #d3ecc6 100%); }
+.hero { padding-top: 0; padding-bottom: 0; display: grid; grid-template-columns: 1fr 1.15fr; gap: 20px; align-items: center; }
+.hero > div:first-child { padding: 32px 0; }
 .hero h1 { font-size: 2.1rem; margin: 0 0 .3em; }
-.hero p { color: var(--muted); font-size: 1.05rem; }
-.hero-art { border-radius: 20px; overflow: hidden; box-shadow: var(--shadow); }
-.hero-art img { display: block; width: 100%; height: auto; border-radius: 20px; }
+.hero p { color: #3d5a48; font-size: 1.05rem; }
+.hero-art img { display: block; width: 100%; height: auto;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 92%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 12%, #000 92%, transparent 100%); }
+.hero-band + main .cat:first-child { margin-top: 24px; }
 .search { margin-top: 18px; position: relative; }
 .search input {
   width: 100%; padding: 13px 16px 13px 44px; font-size: 1rem; font-family: inherit;
@@ -204,7 +208,9 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .lightbox p { position: absolute; bottom: 12px; left: 16px; right: 16px; color: #ddd; text-align: center; font-size: .9rem; margin: 0; }
 
 @media (max-width: 860px) {
-  .hero { grid-template-columns: 1fr; padding-top: 24px; }
+  .hero { grid-template-columns: 1fr; gap: 0; }
+  .hero > div:first-child { padding: 4px 0 24px; }
+  .hero-art img { -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent 100%); mask-image: linear-gradient(180deg, #000 85%, transparent 100%); }
   .hero-art { order: -1; }
   .layout { grid-template-columns: minmax(0, 1fr); }
   .toc { display: none; }
