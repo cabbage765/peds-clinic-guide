@@ -23,7 +23,7 @@ const CATEGORIES = [
   ]},
   { name: "腸胃", icon: "🍼", color: "#e6f4ea", topics: [
     { title: "急性腸胃炎與脫水", desc: "上吐下瀉怎麼補充水分、脫水警訊", url: "gastroenteritis.html", doc: "gastroenteritis.html#doc", docTitle: "急性腸胃炎：脫水評估、口服補液、ondansetron 與益生菌", keys: "腸胃炎 嘔吐 腹瀉 拉肚子 脫水 諾羅 輪狀 電解質 ORS" },
-    { title: "便秘", desc: "排便困難、肛裂與飲食調整", keys: "便秘 大便" },
+    { title: "便秘", desc: "越憋越硬的惡性循環、幫助排便的食物、如廁習慣與軟便藥", url: "constipation.html", doc: "constipation.html#doc", docTitle: "便秘：Rome IV、何時排除器質性疾病、ESPGHAN/NASPGHAN 2026 治療與劑量", keys: "便秘 大便 便便 硬 憋便 肛裂 解便痛 軟便藥 PEG 乳果糖 氧化鎂 灌腸 甘油球 纖維 奇異果 黑棗 地瓜 溢便 Hirschsprung 巨結腸" },
     { title: "嬰兒溢奶與胃食道逆流", desc: "正常溢奶與需要檢查的警訊", keys: "溢奶 吐奶 逆流" },
   ]},
   { name: "皮膚", icon: "🧴", color: "#f3ecfa", topics: [

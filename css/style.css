@@ -333,3 +333,10 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
   .stair-bar { grid-template-columns: 1fr; gap: 2px; }
   .stair-arrow { display: none; }
 }
+
+/* 食物分類卡 */
+.food-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 10px; }
+.food-grid > div { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; background: #fbfdfe; }
+.food-grid h3 { margin: 0 0 6px; font-size: 1rem; }
+.food-grid ul { margin: 0; padding-left: 1.1em; font-size: .92rem; line-height: 1.75; }
+.food-grid .tip { display: block; color: var(--muted); font-size: .82rem; margin-top: 6px; line-height: 1.5; }
