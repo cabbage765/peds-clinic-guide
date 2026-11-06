@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>生長曲線怎麼看｜兒科門診衛教室</title>
+  <meta name="description" content="生長曲線怎麼看：百分位的意思、看趨勢比看單一點重要、正確量身高體重、父母身高推算孩子的目標身高（線上計算）、什麼時候要找醫師；並附醫師用的身材矮小評估、體質性生長遲緩與家族性矮小、性早熟（Endocrine Society 2026）與肥胖評估。">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="生長曲線怎麼看？孩子算不算矮、算不算胖">
+  <meta property="og:description" content="看懂百分位、用父母身高算目標身高，並認識需要就醫的生長警訊。">
+  <meta property="og:url" content="https://cabbage765.github.io/peds-clinic-guide/growth.html">
+  <meta property="og:image" content="https://cabbage765.github.io/peds-clinic-guide/og-image.png">
+  <meta property="og:locale" content="zh_TW">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3">
+  <link rel="stylesheet" href="css/style.css?v=22">
+  <style>
+    .mph { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; align-items: end; }
+    .mph label { display: block; font-size: .88rem; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
+    .mph input, .mph select { width: 100%; box-sizing: border-box; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+    .mph-out { margin-top: 12px; background: var(--brand-soft); border-radius: 12px; padding: 12px 16px; font-size: 1rem; }
+    .mph-out b { color: var(--brand-dark); font-size: 1.25rem; }
+    @media (max-width: 600px) { .mph { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body data-page="topic">
+  <header id="site-header"></header>
+
+  <main class="wrap">
+    <div class="crumbs"><a href="index.html">衛教目錄</a> › 新生兒與成長 › 生長曲線怎麼看</div>
+    <div class="article-hero">
+      <h1>生長曲線怎麼看</h1>
+      <p class="lead">生長曲線是孩子健康的「成績單」。重點不在孩子是第幾百分位，而在<b>是不是沿著自己的曲線穩定成長</b>。一次量到矮一點不用緊張，但如果<b>越掉越低</b>，就值得請醫師評估。</p>
+      <div class="facts">
+        <div class="fact"><b>3–97</b><span>百分位落在這個範圍，大多屬於正常</span></div>
+        <div class="fact"><b>2 條線</b><span>3 歲後跨越 2 條主要百分位線往下掉，要評估</span></div>
+        <div class="fact"><b>4 公分</b><span>3 歲到青春期前，每年長不到約 4 公分要注意</span></div>
+      </div>
+      <div class="switch">
+        <a class="to-parent" href="#percentile">👪 <span>家長衛教<small>百分位、目標身高計算、就醫時機</small></span></a>
+        <a class="to-doc" href="#doc">🩺 <span>醫師參考<small>矮小評估、性早熟、肥胖</small></span></a>
+      </div>
+    </div>
+
+    <div class="layout">
+      <aside class="toc">
+        <p>家長衛教</p>
+        <a href="#percentile">百分位是什麼</a>
+        <a href="#trend">看趨勢，不看一個點</a>
+        <a href="#charts">台灣用哪一套曲線</a>
+        <a href="#measure">怎麼量才準</a>
+        <a href="#mph">目標身高計算</a>
+        <a href="#habits">長高的好習慣</a>
+        <a href="#myths">常見迷思</a>
+        <a href="#warning">何時要找醫師</a>
+        <div class="doc-part">
+          <p>醫師參考</p>
+          <a href="#updates">近五年實證重點</a>
+          <a href="#short">身材矮小的定義</a>
+          <a href="#variants">正常變異型</a>
+          <a href="#workup">評估與檢查</a>
+          <a href="#puberty">性早熟</a>
+          <a href="#obesity">體重過重與肥胖</a>
+          <a href="#refs">參考資料</a>
+        </div>
+      </aside>
+
+      <div>
+        <!-- ========== 家長衛教 ========== -->
+        <section class="block" id="percentile">
+          <h2><span class="num">1</span>百分位是什麼意思？</h2>
+          <p>假設找 100 個同年齡、同性別的孩子從矮排到高：</p>
+          <ul class="list-check">
+            <li><b>第 50 百分位</b>：排在正中間，是「平均」。</li>
+            <li><b>第 15 百分位</b>：100 個孩子裡，大約有 15 個比他矮、85 個比他高。</li>
+            <li><b>第 3 到第 97 百分位</b>之間，絕大多數是正常的；矮一點、高一點常常只是家族體型。</li>
+            <li>體重也一樣，但體重要搭配身高一起看（2 歲以上看 <b>BMI</b> 百分位）。</li>
+          </ul>
+        </section>
+
+        <section class="block" id="trend">
+          <h2><span class="num">2</span>看趨勢，不要只看一個點</h2>
+          <figure class="diagram">
+            <svg role="img" aria-label="身高生長曲線示意圖：A 孩子一直沿著第 15 百分位成長，屬於正常；B 孩子從第 50 百分位逐漸往下掉到第 3 百分位以下，需要評估" viewBox="0 0 760 420" font-family="inherit">
+              <rect x="70" y="20" width="620" height="340" fill="#fbfdfe" stroke="#dfe6ec"/>
+              <g stroke="#e6edf2" stroke-width="1">
+                <path d="M132 20v340M194 20v340M256 20v340M318 20v340M380 20v340M442 20v340M504 20v340M566 20v340M628 20v340"/>
+                <path d="M70 88h620M70 156h620M70 224h620M70 292h620"/>
+              </g>
+              <g fill="none" stroke-width="2">
+                <path d="M70 352L690 160" stroke="#9fb3c5"/>
+                <path d="M70 340L690 134" stroke="#b9c8d6"/>
+                <path d="M70 326L690 106" stroke="#7d9ab3" stroke-width="2.5"/>
+                <path d="M70 312L690 78" stroke="#b9c8d6"/>
+                <path d="M70 300L690 52" stroke="#9fb3c5"/>
+              </g>
+              <g font-size="14" fill="#5b6b7a">
+                <text x="696" y="56">97</text><text x="696" y="82">85</text><text x="696" y="110">50</text><text x="696" y="138">15</text><text x="696" y="164">3</text>
+              </g>
+              <g fill="#1f8a87"><circle cx="150" cy="313.4" r="5"/><circle cx="250" cy="280.2" r="5"/><circle cx="350" cy="247" r="5"/><circle cx="450" cy="213.7" r="5"/><circle cx="550" cy="180.5" r="5"/><circle cx="640" cy="150.6" r="5"/></g>
+              <path d="M150 313.4L250 280.2L350 247L450 213.7L550 180.5L640 150.6" stroke="#1f8a87" stroke-width="2.5" fill="none"/>
+              <g fill="#c8443a"><circle cx="150" cy="297.6" r="5"/><circle cx="250" cy="266.1" r="5"/><circle cx="350" cy="240" r="5"/><circle cx="450" cy="216" r="5"/><circle cx="550" cy="206.4" r="5"/><circle cx="640" cy="196" r="5"/></g>
+              <path d="M150 297.6L250 266.1L350 240L450 216L550 206.4L640 196" stroke="#c8443a" stroke-width="2.5" fill="none" stroke-dasharray="7 5"/>
+              <g font-weight="700" font-size="16">
+                <text x="420" y="304" fill="#1f8a87">A：一直沿著第 15 百分位 → 正常</text>
+                <text x="420" y="330" fill="#c8443a">B：從第 50 掉到第 3 以下 → 要評估</text>
+              </g>
+              <text x="380" y="392" text-anchor="middle" font-size="15" fill="#5b6b7a">年齡 →</text>
+              <text x="30" y="200" font-size="15" fill="#5b6b7a" transform="rotate(-90 30 200)" text-anchor="middle">身高 →</text>
+            </svg>
+            <figcaption>示意圖：A 孩子雖然偏矮，但一直沿著自己的曲線長，通常是家族體型；B 孩子雖然還沒有特別矮，但<b>一直往下掉</b>，比 A 更需要檢查。</figcaption>
+          </figure>
+          <p class="muted small">出生到 2 歲之間，寶寶常會從出生時的位置「調整」到自己的遺傳曲線，上下跨線比較常見；3 歲以後通常會穩定在同一條線附近。</p>
+        </section>
+
+        <section class="block" id="charts">
+          <h2><span class="num">3</span>台灣用哪一套曲線？</h2>
+          <ul class="list-check">
+            <li><b>0–5 歲：</b>兒童健康手冊使用依世界衛生組織（WHO）兒童生長標準修訂的生長曲線，男女分開 [4,6]。</li>
+            <li><b>學齡兒童與青少年：</b>體重是否過重、肥胖，依衛福部國民健康署公布的<b>兒童及青少年 BMI 建議值</b>判斷 [7]。</li>
+            <li>早產兒在 2 歲前要用「矯正年齡」來畫（實際年齡減去早產的週數）。</li>
+          </ul>
+        </section>
+
+        <section class="block" id="measure">
+          <h2><span class="num">4</span>怎麼量才準？</h2>
+          <ul class="list-check tips">
+            <li><b>2 歲以下躺著量身長</b>，2 歲以上<b>站著量身高</b>；站著量會比躺著少約 0.7 公分，換測量方式時不要誤以為變矮。</li>
+            <li><b>脫鞋、拿掉髮飾</b>，腳跟、臀部、肩胛骨靠牆，眼睛平視前方。</li>
+            <li><b>最好在同一個時間量</b>：早上起床比晚上高一點點。</li>
+            <li><b>體重</b>穿輕便衣服、最好在飯前或固定時間量。</li>
+            <li><b>每次回診帶兒童健康手冊</b>，把每次的數值畫上去，醫師才看得出趨勢。</li>
+          </ul>
+        </section>
+
+        <section class="block" id="mph">
+          <h2><span class="num">5</span>用爸媽的身高，估算孩子的目標身高</h2>
+          <p>孩子最終的身高大部分由遺傳決定。常用的「父母身高中間值」公式：</p>
+          <ul class="list-check">
+            <li><b>男生：</b>（爸爸身高＋媽媽身高＋13）÷ 2</li>
+            <li><b>女生：</b>（爸爸身高＋媽媽身高－13）÷ 2</li>
+            <li>算出來的數字<b>上下約 8.5 公分</b>都屬於合理範圍 [5]。</li>
+          </ul>
+          <div class="order-box">
+            <b>目標身高計算</b>
+            <div class="mph" style="margin-top:10px">
+              <div><label for="mph-dad">爸爸身高（公分）</label><input id="mph-dad" type="number" inputmode="decimal" min="120" max="230" placeholder="例如 172"></div>
+              <div><label for="mph-mom">媽媽身高（公分）</label><input id="mph-mom" type="number" inputmode="decimal" min="110" max="220" placeholder="例如 160"></div>
+              <div><label for="mph-sex">孩子性別</label><select id="mph-sex"><option value="m">男生</option><option value="f">女生</option></select></div>
+            </div>
+            <div class="mph-out" id="mph-out" aria-live="polite">請輸入爸爸和媽媽的身高。</div>
+          </div>
+          <p class="muted small" style="margin-top:10px">這只是估計，營養、睡眠、疾病和青春期早晚都會影響。孩子的身高曲線若明顯低於這個範圍對應的百分位，請和醫師討論。</p>
+        </section>
+
+        <section class="block" id="habits">
+          <h2><span class="num">6</span>長高的好習慣</h2>
+          <div class="reasons">
+            <div><b>😴 睡得夠、睡得好</b><br>學齡前 10–13 小時、學齡兒童 9–12 小時、青少年 8–10 小時（含午睡）；固定作息，睡前少用 3C。</div>
+            <div><b>🥛 均衡飲食</b><br>足夠的蛋白質（蛋、魚、豆、肉）、奶類、蔬果；少含糖飲料與零食。</div>
+            <div><b>🏃 規律運動</b><br>每天累積 60 分鐘中高強度活動，跳繩、籃球、游泳都很好。</div>
+            <div><b>🩺 控制慢性病</b><br>氣喘、過敏、腸胃疾病控制好，對生長也有幫助。</div>
+          </div>
+        </section>
+
+        <section class="block" id="myths">
+          <h2><span class="num">7</span>常見迷思</h2>
+          <ul class="list-check">
+            <li><b>「轉骨方可以長更高？」</b>沒有可靠的證據；部分藥材或補品可能含有不明成分或激素，反而可能讓骨齡提早成熟、提早停止長高。</li>
+            <li><b>「多喝牛奶、吃鈣片就能長高？」</b>營養不足時補足有幫助，但吃超過需要量並不會長得更高。</li>
+            <li><b>「生長激素可以讓正常的孩子長高很多？」</b>生長激素用於確診的疾病（如生長激素缺乏、透納氏症等）；對健康的矮個子孩子效果有限，需由專科醫師評估。</li>
+            <li><b>「現在胖一點，以後抽高就瘦了？」</b>不一定。兒童肥胖常延續到成人，而且胖的孩子常<b>比較早進入青春期</b>，最後的身高反而可能受影響。</li>
+          </ul>
+        </section>
+
+        <section class="block" id="warning">
+          <h2><span class="num">8</span>何時要找醫師評估？</h2>
+          <ul class="list-warn">
+            <li>身高<b>低於第 3 百分位</b>，或明顯低於爸媽身高推算的範圍</li>
+            <li>3 歲以後，身高曲線<b>往下跨越 2 條主要百分位線</b></li>
+            <li>3 歲到青春期前，<b>一年長不到約 4 公分</b></li>
+            <li>體重<b>不增反減</b>、往下掉好幾條線，或合併腹瀉、疲倦、食慾差</li>
+            <li>BMI 在<b>過重或肥胖</b>範圍，或體重快速上升</li>
+            <li><b>女生 8 歲前乳房發育、男生 9 歲前睪丸變大</b>，或很早長陰毛、變聲、月經提早（性早熟）</li>
+            <li>女生 13 歲、男生 14 歲仍完全沒有青春期徵象</li>
+          </ul>
+        </section>
+
+        <!-- ========== 醫師參考 ========== -->
+        <div class="doc-zone" id="doc">
+          <div class="doc-banner">
+            <h2>🩺 醫師參考：生長評估、身材矮小、性早熟與肥胖</h2>
+            <p>依 2026 年國際兒童身材矮小基因檢測指引 [1]、Endocrine Society 2026 中樞性性早熟指引 [2]、AAP 2023 肥胖指引 [3] 與經典評估原則整理；文中 [ ] 數字對應最下方參考資料。</p>
+          </div>
+
+          <section class="block" id="updates">
+            <h2>近五年實證重點（2026/11 整理）</h2>
+            <ul>
+              <li><b>身材矮小基因檢測（2026 國際指引）：</b>整理病史、家族史、理學檢查、影像與實驗室中提高遺傳病因可能性的線索，並提出依臨床表現選擇基因檢測的流程 [1]。</li>
+              <li><b>中樞性性早熟（Endocrine Society 2026）：</b>女孩 7.0–8.0 歲乳房發育建議定期觀察而非立即檢查；7 歲前乳房發育者先觀察 4–6 個月區分緩慢進展或快速進展；荷爾蒙評估以超高敏感度基礎 LH 起始；6–8 歲女孩、8–9 歲男孩無神經症狀不常規做腦部 MRI [2]。</li>
+              <li><b>AAP 2023 肥胖指引：</b>不再建議「觀察等待」，應及早、密集地提供健康行為與生活型態治療；12 歲以上可考慮藥物，13 歲以上重度肥胖可評估減重手術 [3]。</li>
+            </ul>
+          </section>
+
+          <section class="block" id="short">
+            <h2>身材矮小的定義與轉介指標</h2>
+            <div class="table-wrap">
+              <table class="stack">
+                <thead><tr><th>指標</th><th>標準</th></tr></thead>
+                <tbody>
+                  <tr><td class="drug">身材矮小</td><td>身高 &lt; −2 SD（約第 2.3 百分位；臨床常以第 3 百分位為界）[5]</td></tr>
+                  <tr><td class="drug">嚴重矮小</td><td>身高 &lt; −3 SD；遺傳病因的機率較高 [1]</td></tr>
+                  <tr><td class="drug">與遺傳目標不符</td><td>身高 SDS 低於父母身高中間值 SDS 超過約 1.5–2 SD [5]</td></tr>
+                  <tr><td class="drug">生長速度不足</td><td>3 歲至青春期前每年 &lt; 4–5 cm，或持續低於該年齡生長速度第 25 百分位 [5]</td></tr>
+                  <tr><td class="drug">跨線下降</td><td>2–3 歲以後身高往下跨越 2 條主要百分位線</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="block" id="variants">
+            <h2>正常變異型：家族性矮小與體質性生長遲緩</h2>
+            <div class="table-wrap">
+              <table class="stack">
+                <thead><tr><th>項目</th><th>家族性矮小</th><th>體質性生長與青春期遲緩</th></tr></thead>
+                <tbody>
+                  <tr><td class="drug">家族史</td><td>父母身材矮小</td><td>父母常有「晚熟、高中才抽高」</td></tr>
+                  <tr><td class="drug">生長曲線</td><td>平行於低百分位線</td><td>3 歲前往下調整，之後平行；青春期前較同儕落後</td></tr>
+                  <tr><td class="drug">骨齡</td><td>與實際年齡相符</td><td><b>落後</b>，與身高年齡相近</td></tr>
+                  <tr><td class="drug">青春期</td><td>正常時間</td><td>延遲</td></tr>
+                  <tr><td class="drug">最終身高</td><td>落在遺傳目標範圍內偏矮</td><td>通常達到遺傳目標範圍</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="block" id="workup">
+            <h2>評估與檢查</h2>
+            <h3>病史與理學檢查</h3>
+            <ul>
+              <li>出生週數與出生體重（SGA 且 2–4 歲仍未追趕）、慢性病（腸胃、腎臟、心肺、氣喘用藥）、營養、心理社會。</li>
+              <li>父母身高（實測為佳）與青春期時程、家族中的骨骼發育異常。</li>
+              <li>身體比例（坐高／身高、臂展）、異常外觀、頭圍、甲狀腺、青春期分期（Tanner）。</li>
+            </ul>
+            <h3>第一線檢查</h3>
+            <div class="table-wrap">
+              <table class="stack">
+                <thead><tr><th>檢查</th><th>目的</th></tr></thead>
+                <tbody>
+                  <tr><td class="drug">骨齡（左手 X 光）</td><td>區分體質性遲緩與其他原因；預估剩餘生長潛能</td></tr>
+                  <tr><td class="drug">CBC、ESR／CRP、肝腎功能、電解質、鈣磷、ALP</td><td>慢性發炎、腎臟、肝臟、骨骼代謝疾病</td></tr>
+                  <tr><td class="drug">tTG-IgA＋總 IgA</td><td>乳糜瀉</td></tr>
+                  <tr><td class="drug">TSH、free T4</td><td>甲狀腺低下</td></tr>
+                  <tr><td class="drug">IGF-1（± IGFBP-3）</td><td>生長激素缺乏的篩檢；營養不良時會偏低</td></tr>
+                  <tr><td class="drug">染色體（矮小女孩）</td><td>透納氏症：<b>所有原因不明的矮小女孩</b>都應考慮，即使沒有典型外觀</td></tr>
+                  <tr><td class="drug">尿液檢查</td><td>腎小管疾病、腎臟病</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p class="small muted">生長激素刺激試驗由兒童內分泌專科安排。基因檢測可考慮於：嚴重矮小、身體比例不對稱或骨骼發育異常、SGA 未追趕、合併異常外觀或發展遲緩、明顯家族遺傳模式等 [1]。</p>
+          </section>
+
+          <section class="block" id="puberty">
+            <h2>性早熟（Endocrine Society 2026）</h2>
+            <ul>
+              <li><b>傳統定義：</b>女孩 &lt; 8 歲、男孩 &lt; 9 歲出現第二性徵 [2]。</li>
+              <li><b>女孩 7.0–8.0 歲乳房發育（Tanner B2）：</b>建議定期理學檢查觀察，不常規抽血或影像 [2]。</li>
+              <li><b>女孩 &lt; 7 歲乳房發育：</b>先觀察 4–6 個月，區分不持續或緩慢進展型與快速進展型；緩慢進展型不治療也可達正常成人身高 [2]。</li>
+              <li><b>荷爾蒙評估：</b>以<b>超高敏感度基礎 LH</b> 起始 [2]。</li>
+              <li><b>腦部 MRI：</b>6.0–8.0 歲女孩、8.0–9.0 歲男孩若無中樞神經症狀，不常規安排；年齡更小、男孩或有神經學症狀者仍需評估 [2]。</li>
+              <li><b>基因檢測：</b>不常規；家族性 CPP 可經共同決策考慮（如 MKRN3）[2]。</li>
+              <li><b>GnRH 促效劑：</b>適用於多數 CPP，但年紀較大、緩慢進展的女孩淨效益較低；起始即使用預計長期使用的劑型（如長效型）；不建議常規加用生長激素；監測以臨床為主，懷疑治療失敗才抽血；一般不建議持續到女孩 10–11 歲、男孩 11–12 歲之後 [2]。</li>
+            </ul>
+          </section>
+
+          <section class="block" id="obesity">
+            <h2>體重過重與肥胖</h2>
+            <ul>
+              <li><b>定義（AAP）：</b>2 歲以上 BMI ≥ 第 85 百分位為過重、≥ 第 95 百分位為肥胖、≥ 第 95 百分位的 120% 為重度肥胖 [3]。台灣依國健署 BMI 建議值表判讀 [7]。</li>
+              <li><b>共病篩檢：</b>10 歲以上肥胖者（或有危險因子的過重者）檢查血脂、空腹血糖或 HbA1c、ALT；量血壓；評估睡眠呼吸中止、骨骼關節、心理健康 [3]。</li>
+              <li><b>治療：</b>以家庭為中心、密集的健康行為與生活型態治療為基礎；≥ 12 歲可考慮藥物（如 GLP-1 受體促效劑），≥ 13 歲重度肥胖可評估減重手術 [3]。</li>
+              <li><b>肥胖合併身高變矮或生長速度下降：</b>要想到內分泌原因（甲狀腺低下、庫欣症候群、生長激素缺乏），一般外因性肥胖的孩子身高通常偏高 [5]。</li>
+            </ul>
+          </section>
+
+          <section class="block" id="refs">
+            <h2>參考資料</h2>
+            <ol class="refs">
+              <li>Dauber A, Jorge AAL, Nilsson O, et al. International guideline on genetic testing of children with short stature. <i>Eur J Endocrinol</i>. 2026;194(2):R17–R36. doi:10.1093/ejendo/lvag013 <span class="ref-tag">國際指引</span></li>
+              <li>Latronico AC, Roberts SA, Alonzo M, et al. Central precocious puberty: an Endocrine Society clinical practice guideline. <i>J Clin Endocrinol Metab</i>. 2026;111(8):2101–2144. doi:10.1210/clinem/dgag168 <span class="ref-tag">Endocrine Society 指引</span></li>
+              <li>Hampl SE, Hassink SG, Skinner AC, et al. Clinical practice guideline for the evaluation and treatment of children and adolescents with obesity. <i>Pediatrics</i>. 2023;151(2):e2022060640. doi:10.1542/peds.2022-060640 <span class="ref-tag">AAP 指引</span></li>
+              <li>WHO Multicentre Growth Reference Study Group. WHO Child Growth Standards: length/height-for-age, weight-for-age, weight-for-length, weight-for-height and body mass index-for-age. Geneva: World Health Organization; 2006. <span class="ref-tag">WHO</span></li>
+              <li>Rogol AD, Hayden GF. Etiologies and early diagnosis of short stature and growth failure in children and adolescents. <i>J Pediatr</i>. 2014;164(5 Suppl):S1–S14. doi:10.1016/j.jpeds.2014.02.027 <span class="ref-tag">回顧</span></li>
+              <li>台灣兒童健康手冊：0–5 歲兒童生長曲線（依 WHO 兒童生長標準）。衛生福利部國民健康署。 <span class="ref-tag">台灣</span></li>
+              <li>兒童及青少年生長身體質量指數（BMI）建議值。衛生福利部國民健康署。 <span class="ref-tag">台灣</span></li>
+            </ol>
+            <p class="small muted">文獻搜尋截至 2026 年 11 月。身材矮小的經典評估原則（目標身高、生長速度、第一線檢查）近年無新的國際指引，故沿用 2014 年回顧 [5]。本頁的目標身高計算僅供參考，不能取代專科評估。</p>
+          </section>
+        </div>
+
+        <p class="disclaimer">本頁內容整理於 2026 年 11 月，供門診衛教與醫療人員參考，不能取代個別的診察與判斷。</p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="js/common.js?v=22"></script>
+  <script>
+    (function () {
+      const dad = document.getElementById("mph-dad"), mom = document.getElementById("mph-mom"), sex = document.getElementById("mph-sex"), out = document.getElementById("mph-out");
+      function calc() {
+        const d = parseFloat(dad.value), m = parseFloat(mom.value);
+        if (!(d >= 120 && d <= 230 && m >= 110 && m <= 220)) { out.textContent = "請輸入爸爸和媽媽的身高（公分）。"; return; }
+        const t = (d + m + (sex.value === "m" ? 13 : -13)) / 2;
+        out.innerHTML = "目標身高約 <b>" + t.toFixed(1) + " 公分</b><br>合理範圍：" + (t - 8.5).toFixed(1) + "–" + (t + 8.5).toFixed(1) + " 公分";
+      }
+      [dad, mom, sex].forEach(el => el.addEventListener("input", calc));
+      sex.addEventListener("change", calc);
+    })();
+  </script>
+</body>
+</html>

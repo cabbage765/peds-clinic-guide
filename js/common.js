@@ -13,18 +13,18 @@ const CATEGORIES = [
     { title: "細支氣管炎", desc: "嬰兒喘、呼吸快，和氣喘怎麼分", url: "bronchiolitis.html", doc: "bronchiolitis.html#doc", docTitle: "細支氣管炎：評估、處置、不建議治療、與氣喘鑑別、RSV 預防", keys: "RSV 喘 細支氣管 細支氣管炎 咻咻 喘鳴 氣喘 呼吸快 胸凹 單株抗體" },
     { title: "氣喘", desc: "保養藥怎麼用、吸必擴與吸藥輔助器示範影片、發作處理", url: "asthma.html", doc: "asthma.html#doc", docTitle: "氣喘：GINA 2026 治療階梯圖、保養藥適用年齡與劑量、急性發作處置", keys: "氣喘 哮喘 喘 喘鳴 咻咻 夜咳 運動 吸入器 吸入劑 吸必擴 Symbicort 都保 類固醇 保養 GINA 輔助器 吸藥輔助器 MART 欣流 montelukast" },
     { title: "哮吼", desc: "半夜狗吠聲咳嗽、吸氣有聲音", url: "croup.html", doc: "croup.html#doc", docTitle: "哮吼：嚴重度分級、致病原、類固醇與 epinephrine 劑量", keys: "哮吼 犬吠 狗吠 咳嗽 喘鳴 沙啞 croup" },
-    { title: "肺炎", desc: "發燒合併咳嗽、呼吸喘", keys: "肺炎 黴漿菌" },
+    { title: "肺炎", desc: "發燒咳嗽、呼吸喘；怎麼數呼吸、黴漿菌與抗生素", url: "pneumonia.html", doc: "pneumonia.html#doc", docTitle: "肺炎：住院條件、抗生素選擇與劑量、短療程、黴漿菌抗藥、肋膜積液（IDSA 2026）", keys: "肺炎 黴漿菌 走路肺炎 咳嗽 發燒 喘 呼吸快 胸凹 X光 抗生素 amoxicillin azithromycin doxycycline levofloxacin cefixime 肋膜積液 膿胸" },
   ]},
   { name: "發燒與感染", icon: "🌡️", color: "#fbeceb", topics: [
     { title: "發燒的照顧", desc: "量體溫、退燒藥劑量、熱性痙攣與就醫時機", url: "fever.html", doc: "fever.html#doc", docTitle: "發燒：NICE 紅綠燈評估、8–60 天嬰兒發燒、退燒藥與熱性痙攣", keys: "發燒 退燒 體溫 耳溫 肛溫 退燒藥 普拿疼 布洛芬 熱痙攣 抽筋" },
-    { title: "熱性痙攣", desc: "發燒抽筋時家長該怎麼做", keys: "抽筋 痙攣 熱痙攣" },
+    { title: "熱性痙攣", desc: "發燒抽筋時家長該怎麼做、何時叫救護車、會不會再發", url: "febrile-seizure.html", doc: "febrile-seizure.html#doc", docTitle: "熱性痙攣：定義、腰椎穿刺與檢查時機、鑑別診斷、急救用藥劑量、預防性用藥", keys: "抽筋 痙攣 熱痙攣 熱性痙攣 發燒抽筋 癲癇 側躺 急救 midazolam diazepam 腰椎穿刺" },
     { title: "泌尿道感染", desc: "嬰幼兒不明原因發燒要想到；膀胱輸尿管逆流", url: "uti.html", doc: "uti.html#doc", docTitle: "泌尿道感染：診斷、抗生素與療程、影像、VUR 分級與預防性抗生素", keys: "尿 泌尿道 UTI 腎盂腎炎 膀胱炎 逆流 VUR VCUG 驗尿" },
     { title: "腸病毒", desc: "手足口病、疱疹性咽峽炎與重症前兆", url: "enterovirus.html", doc: "enterovirus.html#doc", docTitle: "腸病毒：型別與表現、重症分期與處置、EV-A71 疫苗", keys: "腸病毒 手足口 口腔潰瘍 疱疹性咽峽炎 嘴巴破 肌躍 抽搐 EV71 克沙奇" },
   ]},
   { name: "腸胃", icon: "🍼", color: "#e6f4ea", topics: [
     { title: "急性腸胃炎與脫水", desc: "上吐下瀉怎麼補充水分、脫水警訊", url: "gastroenteritis.html", doc: "gastroenteritis.html#doc", docTitle: "急性腸胃炎：脫水評估、口服補液、ondansetron 與益生菌", keys: "腸胃炎 嘔吐 腹瀉 拉肚子 脫水 諾羅 輪狀 電解質 ORS" },
     { title: "便秘", desc: "越憋越硬的惡性循環、幫助排便的食物、如廁習慣與軟便藥", url: "constipation.html", doc: "constipation.html#doc", docTitle: "便秘：Rome IV、何時排除器質性疾病、ESPGHAN/NASPGHAN 2026 治療與劑量", keys: "便秘 大便 便便 硬 憋便 肛裂 解便痛 軟便藥 PEG 乳果糖 氧化鎂 灌腸 甘油球 纖維 奇異果 黑棗 地瓜 溢便 Hirschsprung 巨結腸" },
-    { title: "嬰兒溢奶與胃食道逆流", desc: "正常溢奶與需要檢查的警訊", keys: "溢奶 吐奶 逆流" },
+    { title: "嬰兒溢奶與胃食道逆流", desc: "正常溢奶與需要檢查的警訊、餵奶與睡姿訣竅", url: "reflux.html", doc: "reflux.html#doc", docTitle: "胃食道逆流：GER 與 GERD、警訊與鑑別、增稠配方、牛奶蛋白試驗、抑酸藥劑量", keys: "溢奶 吐奶 逆流 胃食道逆流 GERD 噴射狀嘔吐 幽門狹窄 防吐奶粉 增稠 牛奶過敏 胃藥 PPI" },
   ]},
   { name: "皮膚", icon: "🧴", color: "#f3ecfa", topics: [
     { title: "異位性皮膚炎", desc: "保濕、洗澡、類固醇藥膏怎麼擦與擦多少", url: "atopic-dermatitis.html", doc: "atopic-dermatitis.html#doc", docTitle: "異位性皮膚炎：2023 指引重點、外用藥強度、全身治療與合併感染", keys: "濕疹 異位性 皮膚炎 皮膚癢 乾燥 保濕 類固醇 藥膏 指尖單位 漂白水" },
@@ -32,8 +32,8 @@ const CATEGORIES = [
     { title: "蕁麻疹", desc: "突然冒出來的膨疹、抗組織胺怎麼吃、何時要急診", url: "urticaria.html", doc: "urticaria.html#doc", docTitle: "蕁麻疹：2026 國際指引、分類、檢查、鑑別診斷、治療階梯與劑量", keys: "蕁麻疹 風疹塊 膨疹 癢 過敏 血管性水腫 眼皮腫 嘴唇腫 抗組織胺 過敏性休克 腎上腺素 食物過敏" },
   ]},
   { name: "新生兒與成長", icon: "👶", color: "#fff6d9", topics: [
-    { title: "新生兒黃疸", desc: "皮膚黃要不要照光", keys: "黃疸 新生兒" },
-    { title: "生長曲線怎麼看", desc: "身高體重百分位的意義", keys: "生長曲線 身高 體重" },
+    { title: "新生兒黃疸", desc: "皮膚黃要不要照光、蠶豆症、大便卡與膽道閉鎖", url: "jaundice.html", doc: "jaundice.html#doc", docTitle: "新生兒黃疸：AAP 2022 危險因子、測量時機、照光與升級照護、延遲性黃疸", keys: "黃疸 新生兒 照光 膽紅素 母乳 蠶豆症 G6PD 大便卡 膽道閉鎖 灰白便 曬太陽" },
+    { title: "生長曲線怎麼看", desc: "百分位的意義、目標身高計算、何時要評估", url: "growth.html", doc: "growth.html#doc", docTitle: "生長評估：身材矮小、性早熟（Endocrine Society 2026）、肥胖（AAP 2023）", keys: "生長曲線 身高 體重 百分位 矮 長不高 目標身高 骨齡 生長激素 性早熟 轉骨 BMI 肥胖 過重" },
     { title: "疫苗接種時程", desc: "公費時程表、同種與不同疫苗的接種間隔", url: "vaccines.html", doc: "vaccines.html#doc", docTitle: "疫苗：最小接種年齡、最短間隔、不同疫苗間隔與補種", keys: "疫苗 預防針 接種 時程 間隔 五合一 六合一 MMR 水痘 日本腦炎 卡介苗 B肝 A肝 肺炎鏈球菌 輪狀 補種" },
   ]},
 ];
