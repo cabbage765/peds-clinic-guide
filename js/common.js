@@ -11,6 +11,7 @@ const CATEGORIES = [
   { name: "呼吸道", icon: "🫁", color: "#e3eef9", topics: [
     { title: "一般感冒", desc: "病程、居家照顧、感冒藥注意事項與何時回診", url: "common-cold.html", doc: "common-cold.html#doc", docTitle: "一般感冒：症狀病程實證與各種治療的證據", keys: "感冒 咳嗽 流鼻水 鼻塞 喉嚨痛 感冒藥 止咳 蜂蜜 流感" },
     { title: "細支氣管炎", desc: "嬰兒喘、呼吸快，和氣喘怎麼分", url: "bronchiolitis.html", doc: "bronchiolitis.html#doc", docTitle: "細支氣管炎：評估、處置、不建議治療、與氣喘鑑別、RSV 預防", keys: "RSV 喘 細支氣管 細支氣管炎 咻咻 喘鳴 氣喘 呼吸快 胸凹 單株抗體" },
+    { title: "氣喘", desc: "保養藥怎麼用、吸必擴與吸藥輔助器示範影片、發作處理", url: "asthma.html", doc: "asthma.html#doc", docTitle: "氣喘：GINA 2026 治療階梯圖、保養藥適用年齡與劑量、急性發作處置", keys: "氣喘 哮喘 喘 喘鳴 咻咻 夜咳 運動 吸入器 吸入劑 吸必擴 Symbicort 都保 類固醇 保養 GINA 輔助器 吸藥輔助器 MART 欣流 montelukast" },
     { title: "哮吼", desc: "半夜狗吠聲咳嗽、吸氣有聲音", url: "croup.html", doc: "croup.html#doc", docTitle: "哮吼：嚴重度分級、致病原、類固醇與 epinephrine 劑量", keys: "哮吼 犬吠 狗吠 咳嗽 喘鳴 沙啞 croup" },
     { title: "肺炎", desc: "發燒合併咳嗽、呼吸喘", keys: "肺炎 黴漿菌" },
   ]},

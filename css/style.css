@@ -307,3 +307,29 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .vax-grid td.note-cell { text-align: left; font-weight: 400 !important; color: var(--muted) !important; }
 .vax-grid small { color: var(--muted); font-weight: 400; }
 .vax-grid td.drug { white-space: normal; }
+
+/* YouTube 嵌入 */
+.yt { position: relative; max-width: 720px; margin: 0 auto; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: #000; }
+.yt iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+/* GINA 階梯圖 */
+.stair-title { margin: 18px 0 4px; font-weight: 700; color: var(--doc); }
+.stair { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; align-items: end; margin: 6px 0 0; }
+.stair > div { border-radius: 10px 10px 4px 4px; padding: 8px 10px; font-size: .82rem; line-height: 1.5; border: 1px solid #d5e0ec; }
+.stair > div:nth-child(1) { min-height: 120px; background: #f3f7fb; }
+.stair > div:nth-child(2) { min-height: 150px; background: #edf3f9; }
+.stair > div:nth-child(3) { min-height: 180px; background: #e6eef7; }
+.stair > div:nth-child(4) { min-height: 210px; background: #dfe9f4; }
+.stair > div:nth-child(5) { min-height: 240px; background: #d8e4f1; }
+.stair .s { display: block; font-weight: 700; color: var(--doc); font-size: .78rem; letter-spacing: .02em; }
+.stair .main { display: block; font-weight: 700; color: var(--ink); margin: 2px 0 4px; }
+.stair .alt { display: block; color: var(--muted); font-size: .76rem; border-top: 1px dashed #c3d2e3; padding-top: 4px; margin-top: 4px; }
+.stair-bar { display: grid; grid-template-columns: 7.5em 1fr; gap: 8px; align-items: center; background: #f4f6f9; border-radius: 8px; padding: 7px 10px; font-size: .82rem; margin-top: 6px; }
+.stair-bar b { color: var(--doc); }
+.stair-arrow { display: flex; justify-content: space-between; font-size: .76rem; color: var(--muted); margin-top: 6px; }
+@media (max-width: 760px) {
+  .stair { grid-template-columns: 1fr; }
+  .stair > div { min-height: 0 !important; border-radius: 8px; grid-column: auto !important; }
+  .stair-bar { grid-template-columns: 1fr; gap: 2px; }
+  .stair-arrow { display: none; }
+}
