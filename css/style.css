@@ -117,7 +117,11 @@ a.topic:hover { transform: translateY(-2px); border-color: var(--brand); }
 .switch .to-doc { background: var(--doc); color: #fff; }
 
 .layout { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 32px; margin-top: 24px; }
-.toc { position: sticky; top: 72px; align-self: start; font-size: .9rem; }
+.toc { position: sticky; top: 72px; align-self: start; font-size: .9rem; max-height: calc(100vh - 88px); overflow-y: auto; overscroll-behavior: contain; padding-right: 6px; scrollbar-width: thin; scrollbar-color: #cfd8e0 transparent; }
+.toc::-webkit-scrollbar { width: 6px; }
+.toc::-webkit-scrollbar-thumb { background: #cfd8e0; border-radius: 3px; }
+.toc a.active { color: var(--brand-dark); font-weight: 700; border-left-color: var(--brand); }
+.toc .doc-part a.active { color: var(--doc); border-left-color: var(--doc); }
 .toc p { font-weight: 700; margin: 0 0 4px; font-size: .82rem; color: var(--muted); letter-spacing: .05em; }
 .toc a { display: block; text-decoration: none; color: var(--muted); padding: 3px 0 3px 10px; border-left: 2px solid var(--line); }
 .toc a:hover { color: var(--brand-dark); border-left-color: var(--brand); }

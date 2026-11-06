@@ -120,10 +120,38 @@ function labelTables() {
   });
 }
 
+// 側欄目錄：標示目前閱讀的段落，並讓側欄自動捲到該項目
+function tocSpy() {
+  const toc = document.querySelector(".toc");
+  if (!toc) return;
+  const links = [...toc.querySelectorAll("a[href^=\"#\"]")];
+  const items = links.map(a => [a, document.getElementById(a.getAttribute("href").slice(1))]).filter(x => x[1]);
+  if (!items.length) return;
+  let current = null, ticking = false;
+  const update = () => {
+    ticking = false;
+    const line = 120;
+    let hit = items[0][0];
+    for (const [a, sec] of items) { if (sec.getBoundingClientRect().top <= line) hit = a; else break; }
+    if (hit === current) return;
+    if (current) current.classList.remove("active");
+    hit.classList.add("active");
+    current = hit;
+    if (toc.scrollHeight > toc.clientHeight) {
+      const t = hit.offsetTop - toc.clientHeight / 2 + hit.offsetHeight / 2;
+      toc.scrollTo({ top: Math.max(0, t), behavior: "smooth" });
+    }
+  };
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; setTimeout(update, 80); } }, { passive: true });
+  addEventListener("resize", update);
+  update();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   labelTables();
   header(document.body.dataset.page);
   footer();
   renderIndex();
   lightbox();
+  tocSpy();
 });
