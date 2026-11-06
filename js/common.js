@@ -28,8 +28,8 @@ const CATEGORIES = [
   ]},
   { name: "皮膚", icon: "🧴", color: "#f3ecfa", topics: [
     { title: "異位性皮膚炎", desc: "保濕、洗澡、類固醇藥膏怎麼擦與擦多少", url: "atopic-dermatitis.html", doc: "atopic-dermatitis.html#doc", docTitle: "異位性皮膚炎：2023 指引重點、外用藥強度、全身治療與合併感染", keys: "濕疹 異位性 皮膚炎 皮膚癢 乾燥 保濕 類固醇 藥膏 指尖單位 漂白水" },
-    { title: "尿布疹", desc: "紅屁股的預防與照顧", keys: "尿布疹 紅屁股" },
-    { title: "蕁麻疹", desc: "突然冒出來的膨疹", keys: "蕁麻疹 過敏 癢" },
+    { title: "尿布疹", desc: "刺激引起還是念珠菌感染？怎麼分、屁屁膏怎麼擦", url: "diaper-rash.html", doc: "diaper-rash.html#doc", docTitle: "尿布疹：刺激性與念珠菌鑑別、其他鑑別診斷、外用藥與抗黴菌藥劑量", keys: "尿布疹 紅屁股 屁屁膏 氧化鋅 念珠菌 黴菌 衛星 鵝口瘡 尿布 濕紙巾 痱子粉" },
+    { title: "蕁麻疹", desc: "突然冒出來的膨疹、抗組織胺怎麼吃、何時要急診", url: "urticaria.html", doc: "urticaria.html#doc", docTitle: "蕁麻疹：2026 國際指引、分類、檢查、鑑別診斷、治療階梯與劑量", keys: "蕁麻疹 風疹塊 膨疹 癢 過敏 血管性水腫 眼皮腫 嘴唇腫 抗組織胺 過敏性休克 腎上腺素 食物過敏" },
   ]},
   { name: "新生兒與成長", icon: "👶", color: "#fff6d9", topics: [
     { title: "新生兒黃疸", desc: "皮膚黃要不要照光", keys: "黃疸 新生兒" },
