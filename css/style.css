@@ -344,3 +344,23 @@ tr.group td { background: #f4f6f9; font-weight: 700; color: var(--doc); font-siz
 .food-grid h3 { margin: 0 0 6px; font-size: 1rem; }
 .food-grid ul { margin: 0; padding-left: 1.1em; font-size: .92rem; line-height: 1.75; }
 .food-grid .tip { display: block; color: var(--muted); font-size: .82rem; margin-top: 6px; line-height: 1.5; }
+
+/* 成人疫苗時程表 */
+.adult-grid td.span { font-size: .8rem; line-height: 1.45; font-weight: 400 !important; color: var(--ink) !important; text-align: left; }
+.adult-grid td.pub { background: #e3f3f2; }
+.adult-grid td.self { background: #fdf3ea; }
+.adult-grid td.risk { background: #eef1f6; }
+.adult-grid th:not(:first-child) { min-width: 74px; }
+.vlegend { display: inline-block; font-size: .78rem; padding: 1px 8px; border-radius: 6px; margin: 2px 4px 2px 0; color: var(--ink); }
+.vlegend.pub { background: #e3f3f2; }
+.vlegend.self { background: #fdf3ea; }
+.vlegend.risk { background: #eef1f6; }
+
+/* 孕婦用藥表 */
+.cat-tag { display: inline-block; min-width: 1.6em; text-align: center; font-weight: 700; font-size: .82rem; padding: 0 6px; border-radius: 6px; background: #f1f3f6; color: var(--ink); }
+.use-ok { color: #2b7a3d; font-weight: 700; }
+.use-caution { color: #9a6a12; font-weight: 700; }
+.use-avoid { color: var(--red); font-weight: 700; }
+
+/* 首頁成人專區 */
+.adult-zone { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 8px; }

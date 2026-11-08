@@ -38,6 +38,12 @@ const CATEGORIES = [
   ]},
 ];
 
+// 成人專區（首頁最下方）
+const ADULT = [
+  { title: "成人疫苗接種", desc: "依年齡與身分的成人疫苗時程、公費對象、懷孕與長者疫苗", url: "adult-vaccines.html", doc: "adult-vaccines.html#doc", docTitle: "成人疫苗：肺炎鏈球菌銜接、麻疹德國麻疹免疫力、B 肝追加、接種間隔", keys: "成人 大人 疫苗 Tdap 百日咳 破傷風 流感 新冠 帶狀疱疹 皮蛇 肺炎鏈球菌 PCV20 PPV23 RSV HPV B肝 A肝 MMR 孕婦 長者 公費" },
+  { title: "孕婦用藥分級", desc: "懷孕時發燒、咳嗽、鼻塞、氣喘、上吐下瀉、抗生素、類固醇怎麼用藥", url: "pregnancy-meds.html", doc: "pregnancy-meds.html#doc", docTitle: "孕期用藥：舊 FDA 分級對照、各類藥物建議與孕期注意事項", keys: "孕婦 懷孕 用藥 分級 FDA ABCDX 普拿疼 acetaminophen 止痛 咳嗽 鼻塞 化痰 氣喘 孕吐 腹瀉 抗生素 類固醇" },
+];
+
 function header(active) {
   const el = document.getElementById("site-header");
   if (!el) return;
@@ -72,7 +78,10 @@ function renderIndex() {
       ).join("")}</div>
     </section>`).join("");
 
-  const docs = CATEGORIES.flatMap(c => c.topics.filter(t => t.doc));
+  const adultBox = document.getElementById("adult-topics");
+  if (adultBox) adultBox.innerHTML = ADULT.map(t => `<a class="topic" href="${t.url}" data-keys="${t.title} ${t.desc} ${t.keys}"><strong>${t.title}</strong><span>${t.desc}</span><i class="tag parent">民眾衛教</i><i class="tag doc">醫師參考</i></a>`).join("");
+
+  const docs = CATEGORIES.flatMap(c => c.topics.filter(t => t.doc)).concat(ADULT);
   document.getElementById("doc-list").innerHTML = docs.map(t => `<li><a href="${t.doc}">${t.docTitle}</a></li>`).join("");
 
   const input = document.getElementById("q");
@@ -80,7 +89,7 @@ function renderIndex() {
   input.addEventListener("input", () => {
     const q = input.value.trim().toLowerCase();
     let shown = 0;
-    box.querySelectorAll("[data-cat]").forEach(sec => {
+    document.querySelectorAll("[data-cat]").forEach(sec => {
       let n = 0;
       sec.querySelectorAll("[data-keys]").forEach(t => {
         const hit = !q || t.dataset.keys.toLowerCase().includes(q);
